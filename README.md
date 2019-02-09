@@ -1,6 +1,6 @@
-# Test Case for Issues PAYARA-3549
+# Test Case for Issue PAYARA-3549
 
-Simply download Payara 5.183 and 5.184.
+At first, download Payara 5.183 and 5.184.
 
 ## Correct behavior in Payara 5.183 (Java 8.181 required as of PAYARA-3284):
 
