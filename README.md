@@ -1,8 +1,8 @@
-# Test Case for Issue https://github.com/payara/Payara/issues/3284
+# Test Case for Issue [PAYARA-3549](https://github.com/payara/Payara/issues/3549)
 
 At first, download Payara 5.183 and 5.184.
 
-## Correct behavior in Payara 5.183 (Java 8.181 required as of PAYARA-3284):
+## Correct behavior in Payara 5.183 (Java 8.181 required as of [PAYARA-3284](https://github.com/payara/Payara/issues/3284):
 
 1. Build the project by using the POM (mvn clean package).
 2. Start up Payara 5.183 with "start-domain" (base config, no changes required)
