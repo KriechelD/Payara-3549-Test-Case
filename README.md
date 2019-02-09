@@ -54,7 +54,7 @@ Curl output
 curl: (56) SSL read: error:140940E5:SSL routines:ssl3_read_bytes:ssl handshake failure, errno 0
 ```
 
-The connectons ends correctly with an ssl handshake failure, because there was no certifiacate provided in this test case. The behavior of the payara is correct, because the ssl handshake is incomplete. Based on this behavior browser (e.g. Chrome) will now prompt you to select a client certificate (if there are certificates available).
+The connection ends correctly with an ssl handshake failure, because there is no certifiacate provided in this test case. The behavior of the payara is correct, because the ssl handshake is incomplete. Based on this behavior browser (e.g. Chrome) will now prompt you to select a client certificate (if there are certificates available).
 
 
 
